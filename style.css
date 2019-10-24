@@ -11,12 +11,18 @@
 	margin: 0 auto;
 	width: 100%;
 }
+.container-fluid{
+	padding: 0 !important;
+}
  header{
 	display: block;
-	height: 100px;
+	height: 140px;
+}
+h1{
+	margin-top: 0;
+	padding-top: 20px;
 }
  header nav{
-	height: 200px;
 	background-color: #bababa;
 }
  header nav ul{
@@ -46,7 +52,7 @@
  }
 main{
 	background-color: #ededed;
-	font-size: 28px;
+	font-size: 18px;
 }
 .title{
 	text-align:center;
@@ -104,7 +110,12 @@ main{
 	padding: 20px 40px;
 	box-sizing: border-box;
 	text-align: center;
-	
+}
+#col-sm-4 p small{
+	font-size: 50%
+}
+.p small{
+	font-size: 8px;
 }
 footer{
 	background-color: #bababa;
